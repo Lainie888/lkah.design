@@ -1,0 +1,123 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<section id="proGroup">
+    <div class="banner_group">
+        <h1 class="title">專業團隊</h1>
+        <p class="txt">成為毛孩們健康後盾</p>
+        <img class="pro_dr_banner" src="images/pic_banner_dr.png" alt="">
+    </div>
+    <div class="title_group">
+        <div class="title icon_dr_title">醫師介紹<span>Doctor Introduction</span></div>
+    </div>
+    <div class="select_group">
+        <input type="text" class="input_dr empty" placeholder="&#xF002; 請輸入 醫師名稱 / 院所名稱 / 專業科別">
+        <select class="select_hospital_group">
+            <option value="" selected>所有院所</option>
+            <option value="">北區院所</option>
+            <option value="">中區院所</option>
+            <option value="">南區院所</option>
+            <option value="">高雄院所</option>
+        </select>
+        <select class="select_department_group">
+            <option value="" selected>專業科別</option>
+            <option value="">內科</option>
+            <option value="">外科</option>
+        </select>
+    </div>
+    <div class="drs_group">
+        <ul>
+            <li>
+                <span class="tag">北部</span>
+                <a href="javascript:;" class="pic_pro_dr"></a>
+                <p class="txt_dr_name">王仁醫<span>醫師</span></p>
+                <a href="javascript:;" class="icon_pro_address">台北總院</a>
+                <div class="department_group">
+                    <div>一般內外科</div>
+                    <div>住院動物照護</div>
+                </div>
+                <div class="department_group">
+                    <div>一般內外科</div>
+                    <div>急診醫學</div>
+                </div>
+            </li>
+            <li>
+                <span class="tag">中部</span>
+                <div class="pic_pro_dr"></div>
+                <p class="txt_dr_name">王仁醫<span>醫師</span></p>
+                <a href="javascript:;" class="icon_pro_address">台北總院</a>
+                <div class="department_group">
+                    <!-- <div>一般內外科</div> -->
+                    <div>腎臟科</div>
+                </div>
+            </li>
+            <li>
+                <span class="tag">南部</span>
+                <div class="pic_pro_dr"></div>
+                <p class="txt_dr_name">王仁醫<span>醫師</span></p>
+                <a href="javascript:;" class="icon_pro_address">台北總院</a>
+                <div class="department_group">
+                    <div>一般內外科</div>
+                    <div>腎臟科</div>
+                </div>
+            </li>
+            <li>
+                <span class="tag">北部</span>
+                <div class="pic_pro_dr"></div>
+                <p class="txt_dr_name">王仁醫<span>醫師</span></p>
+                <a href="javascript:;" class="icon_pro_address">台北總院</a>
+                <div class="department_group">
+                    <div>一般內外科</div>
+                    <div>腎臟科</div>
+                </div>
+            </li>
+            <li>
+                <span class="tag">北部</span>
+                <div class="pic_pro_dr"></div>
+                <p class="txt_dr_name">王仁醫<span>醫師</span></p>
+                <a href="javascript:;" class="icon_pro_address">台北總院</a>
+                <div class="department_group">
+                    <div>一般內外科</div>
+                    <div>腎臟科</div>
+                </div>
+            </li>
+            <li>
+                <span class="tag">北部</span>
+                <div class="pic_pro_dr"></div>
+                <p class="txt_dr_name">王仁醫<span>醫師</span></p>
+                <a href="javascript:;" class="icon_pro_address">台北總院</a>
+                <div class="department_group">
+                    <div>一般內外科</div>
+                    <div>腎臟科</div>
+                </div>
+            </li>
+            <li>
+                <span class="tag">中部</span>
+                <div class="pic_pro_dr"></div>
+                <p class="txt_dr_name">王仁醫<span>醫師</span></p>
+                <a href="javascript:;" class="icon_pro_address">台北總院</a>
+                <div class="department_group">
+                    <div>一般內外科</div>
+                    <div>腎臟科</div>
+                </div>
+            </li>
+            <li>
+                <span class="tag">南部</span>
+                <div class="pic_pro_dr"></div>
+                <p class="txt_dr_name">王仁醫<span>醫師</span></p>
+                <a href="javascript:;" class="icon_pro_address">台北總院</a>
+                <div class="department_group">
+                    <div>一般內外科</div>
+                    <div>腎臟科</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<script src="js/jquery-3.6.0.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+<script>
+    $(function(){
+        $(".drs_group li").click(function(){
+            $("#main_Content").load("/modal/proGroupDetail.html");
+        })
+    })
+</script>

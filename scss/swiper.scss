@@ -1,0 +1,340 @@
+@import "_mixin";
+
+#swiper , #swiper_doctor {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto 100px auto;
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: flex;
+        align-items: center;
+        @include mobile{
+            width: 80%!important;
+        }
+      }
+    
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+    
+      .append-buttons {
+        text-align: center;
+        margin-top: 20px;
+      }
+    
+      .append-buttons button {
+        display: inline-block;
+        cursor: pointer;
+        border: 1px solid #007aff;
+        color: #007aff;
+        text-decoration: none;
+        padding: 4px 10px;
+        border-radius: 4px;
+        margin: 0 10px;
+        font-size: 13px;
+      }
+    
+    
+    .swiper-slide{
+        >div{
+            >ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: left;
+                margin: 0 20px;
+                padding:0 38px;
+                width: 400px;
+                height: 270px;
+                box-shadow: 0px 1px 20px #0000000f;
+                border-radius: 22px;
+                @include mobile{
+                    width: 100%;
+                    height: 352px;
+                    padding: 17px 27px;
+                }
+                >li{
+                    display: flex;
+                    flex-direction: column;
+                    @include mobile{
+                        width: 80%;
+                        height: 352px;
+                    }
+                    &.swiper_title{
+                        font-size: 21px;
+                        color: #141414;
+                        font-weight: bold;
+                        letter-spacing: 1.2px;
+                        @include mobile{
+                            font-size: 20px;
+                            letter-spacing: 1px;
+                        }
+                        .content{
+                            font-size: 16px;
+                            color:#6a6a6a;
+                            padding-top: 13px;
+                            letter-spacing: 1px;
+                            font-weight: normal;
+                        }
+                    }
+                    &.hospital{
+                        font-size: 21px;
+                        color:#141414;
+                        font-weight: bold;
+                        flex-direction: row;
+                        align-items: center;
+                        &::before{
+                            content: "";
+                            display: block;
+                            max-width: 48px;
+                            max-height: 48px;
+                            width: 48px;
+                            height: 48px;
+                            background: url(/images/icon_hospital_map.svg) no-repeat center;
+                            background-size: cover;
+                            margin-right: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .swiper-button-prev{
+        width: 30px;
+        left: 0;
+        &::after{
+            content: "";
+            display: block;
+            width: 30px;
+            height: 30px;
+            background: url(/images/Iconfeather-arrow-left-circle.png) no-repeat center;
+        }
+    }
+    
+    .swiper-button-next{
+        width: 30px;
+        right: 0;
+        &::after{
+            content: "";
+            width: 30px;
+            height: 30px;
+            background: url(/images/Iconfeather-arrow-right-circle.png) no-repeat center;
+        }
+    }
+}
+
+.swiper-wrapper{
+    @include tablet{
+        width: 400px;
+        height: 270px;
+    }
+    @include desktop{
+        width: 400px;
+        height: 270px;
+    }
+    @include desktop_lg{
+        width: 400px;
+        height: 270px;
+    }
+}
+
+#caseGroup{
+    #swiper{
+        ul{
+            position: relative;
+            &:hover::before{
+                position: absolute;
+                top:0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 400px;
+                // height: 270px;
+                height: 500px;
+                border-radius: 27px;
+                content: "查看更多文章";
+                text-align: center;
+                color: #fff;
+                background: rgba($color: #2a2968, $alpha: 0.7);
+                cursor: pointer;
+                @include mobile{
+                    width: 100%;
+                    height: 352px;
+                }
+            }
+        }
+    }
+}
+
+//醫師
+#swiper_doctor{
+    @include mobile{
+        margin: 20px auto 50px;
+    }
+    .swiper-wrapper{
+        height: auto;
+        @include mobile{
+            width: 150px;
+        }
+        @include tablet{
+            width: 150px;
+        }
+        @include desktop{
+            width: 150px;
+        }
+        @include desktop_lg{
+            width: 150px;
+        }
+        .swiper-slide{
+            @include mobile{
+                // width: 100%!important;
+                width: 150px;
+                display: flex;
+                justify-content: center;
+            }
+            > div > ul{
+                width: 150px;
+                height: auto;
+                padding: 10px;
+                box-shadow: none;
+                transition: all .3s ease-out;
+                &:hover{
+                    transform: scale(1.05);
+                    >li{
+                        color: #5E9BBC;
+                    }
+                    .content{
+                        color: #2a2968;
+                    }
+                }
+                >li{
+                    align-items: center;
+                    div{
+                        display: inline-block;  
+                        border: 8px solid #D2EBF7;
+                        box-shadow:0 0 5px 5px #fff6d1;
+                        border-radius: 50%;          
+                        &.pic_dr{
+                            width: 130px;
+                            height: 130px;
+                            background: url(/images/pic_dr.png) no-repeat center;
+                            background-size: cover;
+                            @include desktop{
+                                width: 130px;
+                                height: 130px;
+                            }
+                        }
+                        &.pic_dr_01{
+                            width: 130px;
+                            height: 130px;
+                            background: url(/images/pic_dr_01.png) no-repeat center;
+                            background-size: cover;
+                        }
+                        // &.pic_QBC{
+                        //     width: 186px;
+                        //     height: 143px;
+                        //     background: url(/images/pic_QBC.png) no-repeat center;
+                        //     background-size: cover;
+                        //     @include desktop{
+                        //         width: 186px;
+                        //         height: 143px;
+                        //     }
+                        // }
+                        // &.pic_BloodAnalyze{
+                        //     width: 221px;
+                        //     height: 117px;
+                        //     background: url(/images/pic_BloodAnalyze.png) no-repeat center;
+                        //     background-size: cover;
+                        //     @include desktop{
+                        //         width: 221px;
+                        //         height: 117px;
+                        //     }
+                        // }
+                        // &.pic_Blood{
+                        //     width: 221px;
+                        //     height: 117px;
+                        //     background: url(/images/pic_Blood.png) no-repeat center;
+                        //     background-size: cover;
+                        //     @include desktop{
+                        //         width: 221px;
+                        //         height: 117px;
+                        //     }
+                        // }
+                    }
+                    div[class^="pic_dr"]{
+                        @include mobile{
+                            width: 115px;
+                            height: 115px;
+                        }
+                    }
+                    .content{
+                        display: block;
+                        padding: 5px 12px;
+                        background: #E3F5FF;
+                        border-radius: 30px;
+                        line-height: 1.5;
+                        color: #5E9BBC;
+                        margin-top: 8px;
+                        @include mobile{
+                            white-space: nowrap;
+                        }
+                    }
+                    @include mobile{
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+} 
+
+#swiper{ //首頁slider
+    .swiper-wrapper{
+        height: 500px;
+        .swiper-slide{
+            height: 500px;
+            .swiper_slider_list{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                ul{
+                    padding: 10px 38px;
+                    height: 500px;
+                    .img_group{
+                        img{
+    
+                        }
+                    }
+                    li{
+                        @include mobile{
+                            height: auto;
+                        }
+                    }
+                    p{
+                        font-size: 16px;
+                        color: #6a6a6a;
+                        padding-top: 13px;
+                        letter-spacing: 1px;
+                        font-weight: normal;
+                    }
+                }
+                .swiper_title{
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                }
+            }
+            
+        }
+    }
+}

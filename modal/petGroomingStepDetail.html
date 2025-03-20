@@ -1,0 +1,135 @@
+<section id="serviceitemGroup">
+    <div class="banner_group">
+        <h1 class="title">服務項目</h1>
+        <p class="txt">用百分百的專業和真心守護毛孩</p>
+        <img class="serviceitem_banner" src="images/pic_serviceitem_banner_group.png" alt="">
+    </div>
+</section>
+<section id="generalMedicineDetail">
+    <div class="pic_veterinaryColumnGroup"></div>
+    <div class="veterinaryColumn_group">
+        <div class="veterinaryColumn_l">
+            <div class="title_group">
+                <div class="txt_tit">寵物美容流程</div>
+            </div>
+            <img class="pic_articalDetail" src="images/cover_service_content_top6 1.jpg" alt="">
+            <div class="veterinaryList_group" id="veterinaryListGroup">
+                <p class="content">標準ISO作業流程</p>
+                <p class="content">Step1 → 進行身體檢視</p>
+                <img class="pic_articalDetail" src="images/01.png" alt="">
+                <p class="content">Step2 → 沐浴洗淨</p>
+                <img class="pic_articalDetail" src="images/02.png" alt="">
+                <p class="content"> Step3 → 吹毛梳整 </p>
+                <img class="pic_articalDetail" src="images/03.png" alt="">
+                <p class="content"> Step4 → 造形設計</p>
+                <img class="pic_articalDetail" src="images/04.png" alt="">
+                <p class="content"> Step5 → 最終檢查美容完成 </p>
+                <img class="pic_articalDetail" src="images/05.png" alt="">
+
+                <p class="content">眾多專業寵物美容技藝大獎</p>
+                <img class="pic_articalDetail" src="images/06.png" alt="">
+                <br/>
+                <p class="content">專業的美容師團隊，經過各種寵物美容協會認證</p>
+                <img class="pic_articalDetail" src="images/07.jpg" alt="">
+                <br/>
+                <img class="pic_articalDetail" src="images/08.jpg" alt="">
+                <br/>
+
+                <p class="content">美容器具皆依標準流程消毒，避免寵物交叉感染，使寵物能在安全的環境下享受最優質的美容SPA</p>
+                <img class="pic_articalDetail" src="images/09.jpg" alt="">
+                <br/>
+                <img class="pic_articalDetail" src="images/10.jpg" alt="">
+                <br/>
+
+                <p class="content">另設美容訓中心，定期培訓專業人才增加職場競爭力</p>
+                <img class="pic_articalDetail" src="images/11.jpg" alt="">
+                <br/>
+                <img class="pic_articalDetail" src="images/12.jpg" alt="">
+                <br/>
+                <img class="pic_articalDetail" src="images/13.jpg" alt="">
+                <br/>
+                <img class="pic_articalDetail" src="images/14.jpg" alt="">
+                <br/>
+                <img class="pic_articalDetail" src="images/15.jpg" alt="">
+                <br/>
+
+
+                <p class="content">美容團隊定期參加國內外各項美容創意競賽與研習，成績卓越，提供寵物永遠亮麗與眾不同之造型</p>
+                <img class="pic_articalDetail" src="images/16.jpg" alt="">
+                <br/>
+                <img class="pic_articalDetail" src="images/17.jpg" alt="">
+                <br/>
+                <img class="pic_articalDetail" src="images/18.jpg" alt="">
+                <br/>
+
+                <P class="content">備有美容接送車，免除故客接送之不便</P>
+                <img class="pic_articalDetail" src="images/19.jpg" alt="">
+                <br/>
+            </div>
+            <div class="back_group">
+                <a href="javascript:;" class="back">返回服務項目</a>
+            </div>
+            <!-- <div class="page_group">
+                <a href="#" class="prev">上一篇</a>
+                <a href="#" class="next">下一篇</a>
+            </div> -->
+        </div>
+        <div class="veterinaryColumn_r">
+            <div class="columnTag_group" id="columnTagGroup">
+                <div class="icon_pet_medical_title">寵物醫療</div>
+                <div class="column_group">
+                    <ul>
+                        <li class="artical_generalMedicineDetail">． 一般內科</li>
+                        <li class="artical_generalSurgeyDetail">． 一般外科</li>
+                        <li class="artical_acuteSevereDetail">． 急重症</li>
+                        <li class="artical_otherServiceDetail">． 其他服務</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="columnTag_group" id="">
+                <div class="icon_petGrooming_title">寵物美容</div>
+                <div class="column_group">
+                    <ul>
+                        <li class="artical_meetPetGroomingDetail">． 認識寵物美容</li>
+                        <li class="artical_petGroomingStepDetail active">． 寵物美容流程</li>
+                        <li class="artical_petGroomingKnowledgeDetail">． 寵物美容知識</li>
+                        <li class="artical_findPetGroomerDetail">． 找寵物美容師</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pic_veterinaryColumnGroup_file"></div>
+</section>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script>
+    $(function(){
+        $(".back_group .back").click(function(){
+            $("#main_Content").load("/modal/serviceitem.html");//返回服務項目頁
+        });
+        $(".artical_generalMedicineDetail").click(function(){
+            $("#main_Content").load("/modal/generalMedicineDetail.html");
+        });
+        $(".artical_generalSurgeyDetail").click(function(){
+            $("#main_Content").load("/modal/generalSurgeyDetail.html");
+        });
+        $(".artical_acuteSevereDetail").click(function(){
+            $("#main_Content").load("/modal/acuteSevereDetail.html");
+        });
+        $(".artical_otherServiceDetail").click(function(){
+            $("#main_Content").load("/modal/otherServiceDetail.html");
+        });
+        $(".artical_meetPetGroomingDetail").click(function(){
+            $("#main_Content").load("/modal/meetPetGroomingDetail.html");
+        });
+        $(".artical_petGroomingStepDetail").click(function(){
+            $("#main_Content").load("/modal/petGroomingStepDetail.html");
+        });
+        $(".artical_petGroomingKnowledgeDetail").click(function(){
+            $("#main_Content").load("/modal/health.html"); 
+        });
+        $(".artical_findPetGroomerDetail").click(function(){
+            $("#main_Content").load("/modal/findPetGroomerDetail.html");
+        });
+    })
+</script>

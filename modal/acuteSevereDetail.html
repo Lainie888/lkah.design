@@ -1,0 +1,98 @@
+<section id="serviceitemGroup">
+    <div class="banner_group">
+        <h1 class="title">服務項目</h1>
+        <p class="txt">用百分百的專業和真心守護毛孩</p>
+        <img class="serviceitem_banner" src="images/pic_serviceitem_banner_group.png" alt="">
+    </div>
+</section>
+<section id="generalMedicineDetail">
+    <div class="pic_veterinaryColumnGroup"></div>
+    <div class="veterinaryColumn_group">
+        <div class="veterinaryColumn_l">
+            <div class="title_group">
+                <div class="txt_tit">急重症</div>
+            </div>
+            <img class="pic_articalDetail" src="images/cover_service_content_top3 1.jpg" alt="">
+            <div class="veterinaryList_group" id="veterinaryListGroup">
+                <p class="content">（一） 當寵物呼吸困難或顯得吃力時，或當舌頭呈藍或紫色時</p>
+                <p class="content">（二） 從身體任何一處流血不止</p>
+                <p class="content">（三） 肚子異常膨脹、嚴重漲氣或腹部疼痛。</p>
+                <p class="content">（四） 無法排便或排尿，尤其是貓。</p>
+                <p class="content">（五） 失去平衡感或意識，包括歪頭，不停繞圈，昏迷，腳步不協調，突然失去視力（如走路一直 撞到障礙物），或出現抽搐，僵直或異常攻 擊現象。</p>
+                <p class="content">（六） 吃下有毒物質。</p>
+                <p class="content">（七） 跛腳，且有任何一隻腳無法負重。</p>
+                <p class="content">（八） 全身或半身癱瘓或失去意識的動物</p>
+                <p class="content">（九） 任何穿刺傷，尤其在胸或腹部，都要及早就醫。</p>
+                <p class="content">（十） 任何嚴重外傷或外傷引起的休克。</p>
+                <p class="content">（十一） 任何與眼睛有關傷害。</p>
+                <p class="content">本院於北中南皆設有24小時醫療中心，分別為台北總院、台中總院以及台南總院，因此當您發現您的毛寶貝發生上述症狀時，請立即聯繫離你最近的慈愛動物醫院，本院將提供您的毛寶貝最好的醫療服務。</p>
+                <p class="content">●住院服務：慈愛動物醫院期望能透過醫療人員住院操作規範之建立、執行與管制，進而有效控制住院病畜之病情及應注意事項。</p>
+                <p class="content">	 ●手術：為提高醫療服務品質及確保病畜之生命安全，因此慈愛動物醫院特定此流程。 </p>
+            </div>
+            <div class="back_group">
+                <a href="javascript:;" class="back">返回服務項目</a>
+            </div>
+            <!-- <div class="page_group">
+                <a href="#" class="prev">上一篇</a>
+                <a href="#" class="next">下一篇</a>
+            </div> -->
+        </div>
+        <div class="veterinaryColumn_r">
+            <div class="columnTag_group" id="columnTagGroup">
+                <div class="icon_pet_medical_title">寵物醫療</div>
+                <div class="column_group">
+                    <ul>
+                        <li class="artical_generalMedicineDetail">． 一般內科</li>
+                        <li class="artical_generalSurgeyDetail">． 一般外科</li>
+                        <li class="artical_acuteSevereDetail active">． 急重症</li>
+                        <li class="artical_otherServiceDetail">． 其他服務</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="columnTag_group" id="">
+                <div class="icon_petGrooming_title">寵物美容</div>
+                <div class="column_group">
+                    <ul>
+                        <li class="artical_meetPetGroomingDetail">． 認識寵物美容</li>
+                        <li class="artical_petGroomingStepDetail">． 寵物美容流程</li>
+                        <li class="artical_petGroomingKnowledgeDetail">． 寵物美容知識</li>
+                        <li class="artical_findPetGroomerDetail">． 找寵物美容師</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pic_veterinaryColumnGroup_file"></div>
+</section>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script>
+    $(function(){
+        $(".back_group .back").click(function(){
+            $("#main_Content").load("/modal/serviceitem.html");//返回服務項目頁
+        });
+        $(".artical_generalMedicineDetail").click(function(){
+            $("#main_Content").load("/modal/generalMedicineDetail.html");
+        });
+        $(".artical_generalSurgeyDetail").click(function(){
+            $("#main_Content").load("/modal/generalSurgeyDetail.html");
+        });
+        $(".artical_acuteSevereDetail").click(function(){
+            $("#main_Content").load("/modal/acuteSevereDetail.html");
+        });
+        $(".artical_otherServiceDetail").click(function(){
+            $("#main_Content").load("/modal/otherServiceDetail.html");
+        });
+        $(".artical_meetPetGroomingDetail").click(function(){
+            $("#main_Content").load("/modal/meetPetGroomingDetail.html");
+        });
+        $(".artical_petGroomingStepDetail").click(function(){
+            $("#main_Content").load("/modal/petGroomingStepDetail.html");
+        });
+        $(".artical_petGroomingKnowledgeDetail").click(function(){
+            $("#main_Content").load("/modal/health.html"); 
+        });
+        $(".artical_findPetGroomerDetail").click(function(){
+            $("#main_Content").load("/modal/findPetGroomerDetail.html");
+        });
+    })
+</script>

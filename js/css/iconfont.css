@@ -1,0 +1,305 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?6y3xt9");
+  src: url("../fonts/icomoon.eot?6y3xt9#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?6y3xt9") format("truetype"), url("../fonts/icomoon.woff?6y3xt9") format("woff"), url("../fonts/icomoon.svg?6y3xt9#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  [class^=icon-], [class*=" icon-"] {
+    font-size: 33px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  [class^=icon-], [class*=" icon-"] {
+    font-size: 47px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  [class^=icon-], [class*=" icon-"] {
+    font-size: 55px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1920px) {
+  [class^=icon-], [class*=" icon-"] {
+    font-size: 55px;
+  }
+}
+
+.icon-icon_media .path1:before {
+  content: "\e900";
+  color: rgb(255, 214, 57);
+}
+
+.icon-icon_media .path2:before {
+  content: "\e901";
+  margin-left: -1.150390625em;
+  color: rgb(255, 214, 57);
+}
+
+.icon-icon_media .path3:before {
+  content: "\e902";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path4:before {
+  content: "\e903";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path5:before {
+  content: "\e904";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path6:before {
+  content: "\e905";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path7:before {
+  content: "\e906";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path8:before {
+  content: "\e907";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path9:before {
+  content: "\e908";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path10:before {
+  content: "\e909";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path11:before {
+  content: "\e90a";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path12:before {
+  content: "\e90b";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path13:before {
+  content: "\e90c";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path14:before {
+  content: "\e90d";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .icon-icon_mobile_quality {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .icon-icon_mobile_quality {
+    font-size: 59px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .icon-icon_mobile_quality {
+    font-size: 75px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1920px) {
+  .icon-icon_mobile_quality {
+    font-size: 75px;
+  }
+}
+
+.icon-icon_mobile_quality .path1:before {
+  content: "\e900";
+  color: rgb(255, 214, 57);
+}
+
+.icon-icon_mobile_quality .path2:before {
+  content: "\e901";
+  margin-left: -0.7822265625em;
+  color: rgb(255, 214, 57);
+}
+
+.icon-icon_mobile_quality .path3:before {
+  content: "\e902";
+  margin-left: -0.7822265625em;
+  color: rgb(255, 214, 57);
+}
+
+.icon-icon_mobile_quality .path4:before {
+  content: "\e903";
+  margin-left: -0.7822265625em;
+  color: rgb(255, 214, 57);
+}
+
+.icon-icon_mobile_quality .path5:before {
+  content: "\e904";
+  margin-left: -0.7822265625em;
+  color: rgb(255, 214, 57);
+}
+
+.icon-icon_mobile_quality .path6:before {
+  content: "\e905";
+  margin-left: -0.7822265625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_mobile_quality .path7:before {
+  content: "\e906";
+  margin-left: -0.7822265625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_mobile_quality .path8:before {
+  content: "\e907";
+  margin-left: -0.7822265625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_mobile_quality .path9:before {
+  content: "\e908";
+  margin-left: -0.7822265625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_mobile_quality .path10:before {
+  content: "\e909";
+  margin-left: -0.7822265625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_mobile_quality .path11:before {
+  content: "\e90a";
+  margin-left: -0.7822265625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_mobile_quality .path12:before {
+  content: "\e90b";
+  margin-left: -0.7822265625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_mobile_quality .path13:before {
+  content: "\e90c";
+  margin-left: -0.7822265625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path1:before {
+  content: "\e90d";
+  color: rgb(255, 214, 57);
+}
+
+.icon-icon_media .path2:before {
+  content: "\e90e";
+  margin-left: -1.150390625em;
+  color: rgb(255, 214, 57);
+}
+
+.icon-icon_media .path3:before {
+  content: "\e90f";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path4:before {
+  content: "\e910";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path5:before {
+  content: "\e911";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path6:before {
+  content: "\e912";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path7:before {
+  content: "\e913";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path8:before {
+  content: "\e914";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path9:before {
+  content: "\e915";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path10:before {
+  content: "\e916";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path11:before {
+  content: "\e917";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path12:before {
+  content: "\e918";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path13:before {
+  content: "\e919";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}
+
+.icon-icon_media .path14:before {
+  content: "\e91a";
+  margin-left: -1.150390625em;
+  color: rgb(42, 41, 104);
+}/*# sourceMappingURL=iconfont.css.map */

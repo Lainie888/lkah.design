@@ -1,0 +1,55 @@
+<section id="newsDetailGroup">
+    <div class="title_group">
+        <div class="title icon_media_title">媒體報導<span>Media Reports</span></div>
+    </div>
+    <div class="activityDetail_group">
+        <div class="title_group">
+            <div class="linkGroup"> <a href="javascript:;" class="news">活動資訊</a>  >  <a href="javascript:;">媒體報導</a></div>
+            <div class="title">東森集團提供500員工毛孩「健康檢查」　慈愛動物醫院專業把關</div>
+            <p class="txt_time">2022.07.19 10:10:10</p>
+        </div>
+        <div class="pic_newsDetail">
+            <img src="images/pic_newsDetail.png" alt="">
+        </div>
+        <div class="pic_tip">慈愛動物醫院全台共12家分店加入「東森員工寵物健檢」行列。（圖／東森寵物雲提供）</div>
+        <div class="veterinaryList_group" id="veterinaryListGroup">
+            <p class="content">東森集團不僅重視員工身體健康，每年為員工提撥高額保費、照顧員工身體健康外，也歡迎家中毛孩一起上班，8月1日起更與慈愛動物醫院共同舉辦「員工毛孩健檢」，打造更加進步的「幸福職場」。 </p>
+            <img src="images/pic_newsDetail.png" alt="">
+            <p class="content">慈愛動物醫院成立於1988年至今已超過30個年頭，全台多間據點且擁有超過50位專業醫生，多年來更持續通過國際ISO及台灣GDP的認證。本次共有12間慈愛動物醫院分院參與此活動，提供約500個名額給員工的毛孩參與，檢查項目包含以聽診、觸診的方式，檢查寵物是否有異常現象。 </p>
+            <p class="content">近年來隨著國人飼養寵物的比例不斷攀升，以及萌寵健康意識的抬頭，飼主對於家中毛孩的健康也格外重視，有鑑於此，東森寵物雲未來將持續攜手慈愛動物醫院推出更多服務為更多的毛孩打造健康生活。</p></p>
+            <p class="content">東森集團為國內知名的寵物友善企業，平日即歡迎員工攜帶家中毛孩一起上班，在辦公室中也準備許多毛孩喜愛的零食讓毛孩一起共享，本次特別與慈愛動物醫院合作員工毛孩健檢，讓員工的毛孩更健康活潑，未來也將秉持企業精神，提供員工及毛孩更好的環境。</p>
+        </div>
+        <div class="Link_group">
+            <div class="back_group">
+                <a href="javascript:;" class="back">返回活動資訊</a>
+            </div>
+            <div class="share_group">
+                <p>分享給朋友</p>
+                <ul class="shareLink_group">
+                    <li>
+                        <a href="javascript:;" class="icon_share_fb"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="icon_share_line"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"  class="icon_share_link"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="page_group">
+            <a href="#" class="prev">上一篇</a>
+            <a href="#" class="next">下一篇</a>
+        </div>
+    </div>
+</section>
+<script src="js/jquery-3.6.0.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+<script>
+    $(function(){
+        $(".news , .back").click(function(){
+            $("#main_Content").load("/modal/news.html");
+        });
+    })
+</script>

@@ -1,0 +1,134 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<section id="serviceitemGroup">
+    <div class="banner_group">
+        <h1 class="title">服務項目</h1>
+        <p class="txt">用百分百的專業和真心守護毛孩</p>
+        <img class="serviceitem_banner" src="images/pic_serviceitem_banner_group.png" alt="">
+    </div>
+    <div class="select_group">
+        <input type="text" class="input_dr empty" placeholder="&#xF002; 請輸入 寵物醫療名稱 / 寵物美容名稱">
+        <select class="select_hospital_group">
+            <option value="" selected>寵物醫療</option>
+            <option value="">一般內科</option>
+            <option value="">一般外科</option>
+            <option value="">急重症</option>
+            <option value="">其他服務</option>
+        </select>
+        <select class="select_department_group">
+            <option value="" selected>寵物美容</option>
+            <option value="">認識寵物美容</option>
+            <option value="">寵物美容流程</option>
+            <option value="">寵物美容知識</option>
+            <option value="">找寵物美容師</option>
+        </select>
+    </div>
+    <div class="title_group">
+        <div class="title icon_pet_medical_title">寵物醫療<span>Medical Treatment</span></div>
+    </div>
+    <div class="serviceitemList_group">
+        <ul>
+            <a class="generalMedicineDetail" href="javascript:;">
+                <li>
+                    <div class="serviceitemListColumn_group">
+                        <span class="icon_generalMedicine"></span>
+                        <p class="content"> 一般內科</p>
+                    </div>
+                </li>
+            </a>
+            <a class="generalSurgeyDetail" href="javascript:;">
+                <li>
+                    <div class="serviceitemListColumn_group">
+                        <span class="icon_generalSurgey"></span>
+                        <p class="content"> 一般外科</p>
+                    </div>
+                </li>
+            </a>
+            <a class="acuteSevereDetail" href="javascript:;">
+                <li>
+                    <div class="serviceitemListColumn_group">
+                        <span class="icon_acuteSevere"></span>
+                        <p class="content"> 急重症</p>
+                    </div>
+                </li>
+            </a>
+            <a class="otherServiceDetail" href="javascript:;">
+                <li>
+                    <div class="serviceitemListColumn_group">
+                        <span class="icon_otherService"></span>
+                        <p class="content"> 其他服務</p>
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="title_group">
+        <div class="title icon_petGrooming_title">寵物美容<span>Pet Grooming</span></div>
+    </div>
+    <div class="serviceitemList_group">
+        <ul>
+            <a class="meetPetGroomingDetail" href="javascript:;">
+                <li>
+                    <div class="serviceitemListColumn_group">
+                        <span class="icon_meetPetGrooming"></span>
+                        <p class="content"> 認識寵物美容</p>
+                    </div>
+                </li>
+            </a>
+            <a class="petGroomingStepDetail" href="javascript:;">
+                <li>
+                    <div class="serviceitemListColumn_group">
+                        <span class="icon_petGroomingProcess"></span>
+                        <p class="content"> 寵物美容流程</p>
+                    </div>
+                </li>
+            </a>
+            <a class="petGroomingKnowledgeDetail" href="javascript:;">
+                <li>
+                    <div class="serviceitemListColumn_group">
+                        <span class="icon_petGroomingknowledge"></span>
+                        <p class="content"> 寵物美容知識</p>
+                    </div>
+                </li>
+            </a>
+            <a class="findPetGroomerDetail" href="javascript:;">
+                <li>
+                    <div class="serviceitemListColumn_group">
+                        <span class="icon_findPetGroomer"></span>
+                        <p class="content"> 找寵物美容師</p>
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </div>
+
+</section>
+<script src="js/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(function(){
+        $(".generalMedicineDetail").click(function(){
+            $("#main_Content").load("/modal/generalMedicineDetail.html"); 
+        });
+        $(".generalSurgeyDetail").click(function(){
+            $("#main_Content").load("/modal/generalSurgeyDetail.html"); 
+        });
+        $(".acuteSevereDetail").click(function(){
+            $("#main_Content").load("/modal/acuteSevereDetail.html"); 
+        });
+        $(".otherServiceDetail").click(function(){
+            $("#main_Content").load("/modal/otherServiceDetail.html"); 
+        });
+        $(".meetPetGroomingDetail").click(function(){
+            $("#main_Content").load("/modal/meetPetGroomingDetail.html"); 
+        });
+        $(".petGroomingStepDetail").click(function(){
+            $("#main_Content").load("/modal/petGroomingStepDetail.html"); 
+        });
+        $(".petGroomingKnowledgeDetail").click(function(){//寵物美容知識
+            $("#main_Content").load("/modal/health.html"); 
+        });
+        $(".findPetGroomerDetail").click(function(){
+            $("#main_Content").load("/modal/findPetGroomerDetail.html"); 
+        });
+    })
+</script>

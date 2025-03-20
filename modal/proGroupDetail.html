@@ -1,0 +1,78 @@
+<section id="proGroupDetail">
+    <div class="banner_group">
+        <h1 class="title">專業團隊</h1>
+        <p class="txt">慈愛提供您最好的醫療服務</p>
+    </div>
+    <div class="title_group">
+        <div class="title icon_dr_title">醫師介紹<span>Doctor Introduction</span></div>
+    </div>
+    <div class="drs_group">
+        <div class="icon_drs_group"></div>
+        <div class="dr_group">
+            <p class="txt_dr_name">王仁醫<span>醫師</span></p>
+            <div class="department_group">
+                <div>一般內外科</div>
+                <div>腎臟科</div>
+                <div>心臟科</div>
+                <div>骨科</div>
+                <div>眼科</div>
+            </div>
+        </div>
+        <div class="pic_pro_group">
+            <div class="pic_pro_dr"></div>
+            <ul class="icon_group">
+                <li>
+                    <p class="icon_serviceUnit">服務單位</p> 
+                    <span>曼哈頓動物醫院</span>
+                </li>
+                <li>
+                    <p class="icon_education">學歷</p> 
+                    <span>國立嘉義大學 獸醫學系</span>
+                </li>
+                <li>
+                    <p class="icon_experience">經歷</p> 
+                    <span>慈愛動物醫院 - 台南總院主治醫師</span>
+                    <span>品湛動物醫院 - 夜間急診醫師</span>
+                    <span>台中英國皇家動物醫院主治醫師（2011/1/1-2014/8/31） </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="title_group">
+        <div class="title icon_articale_title">相關文章<span>Correlative Articles</span></div>
+    </div>
+    <div class="articaleList_group">
+        <ul>
+            <li>
+                <div class="articaleListColumn_group">
+                    <div class="pic_articaleListColumn"></div>
+                    <div class="tit">只希望替每位病苦或抑鬱的毛孩找到出口——許可琪專訪</div>
+                    <div class="txt_time">2022.07.19 10:10:10</div>
+                    <p class="content"> 領養，是毛孩的救贖。2009年的夏天領養了一隻美國短毛貓，說是領養，更不如說是花錢贖走那因為乳腺瘤而無生育價值的種母，那時的牠，才一歲左右的年紀，名為「心肝」，卻著實令人辛酸。</p>
+                    <a href="javascript:;" class="read_more">more</a>
+                </div>
+            </li>
+            <li>
+                <div class="articaleListColumn_group">
+                    <div class="pic_articaleListColumn"></div>
+                    <div class="tit">只希望替每位病苦或抑鬱的毛孩找到出口——許可琪專訪</div>
+                    <div class="txt_time">2022.07.19 10:10:10</div>
+                    <p class="content"> 領養，是毛孩的救贖。2009年的夏天領養了一隻美國短毛貓，說是領養，更不如說是花錢贖走那因為乳腺瘤而無生育價值的種母，那時的牠，才一歲左右的年紀，名為「心肝」，卻著實令人辛酸。</p>
+                    <a href="javascript:;" class="read_more">more</a>
+                </div>
+            </li>
+        </ul>
+        <div class="back_group">
+            <a href="javascript:;" class="back">返回專業團隊</a>
+        </div>
+    </div>
+</section>
+<script src="js/jquery-3.6.0.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+<script>
+    $(function(){
+        $(".back_group .back").click(function(){//返回專業團隊
+            $("#main_Content").load("/modal/proGroup.html");
+        });
+    })
+</script>

@@ -1,0 +1,576 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Noto Sans", "Microsoft JhengHei", "Source Han Sans", "PingFang SC";
+  position: relative;
+  line-height: 1.5;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+:focus {
+  outline: none;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+img[class^=img-fluid] {
+  max-width: 100%;
+  height: auto;
+}
+
+.red {
+  color: #d44113 !important;
+}
+
+.red_second {
+  background: #ff5809 !important;
+  color: #fff !important;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container, .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.noBorder {
+  border-bottom: 0 !important;
+}
+
+.w_100 {
+  width: 100%;
+}
+
+#owl-carousel_ytViedoGroup.owl-theme {
+  width: 893px;
+  padding-bottom: 15px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_ytViedoGroup.owl-theme {
+    max-width: 100%;
+    width: 100%;
+    min-height: 256px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_ytViedoGroup.owl-theme {
+    width: 583px;
+    min-height: 256px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+}
+#owl-carousel_ytViedoGroup.owl-theme .item {
+  width: 440px;
+  height: 248px;
+  background: #ccc;
+  padding: 0;
+  margin-right: 13px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_ytViedoGroup.owl-theme .item {
+    width: 295px;
+    height: 166px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_ytViedoGroup.owl-theme .item {
+    width: 285px;
+    height: 160px;
+  }
+}
+
+.vedioGroup {
+  max-width: 440px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 56.363%;
+  overflow: hidden;
+}
+
+#owl-carousel_ytViedoGroup.owl-theme .owl-nav {
+  position: relative;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_ytViedoGroup.owl-theme .owl-nav {
+    margin-top: -110px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_ytViedoGroup.owl-theme .owl-nav {
+    margin-top: -110px;
+  }
+}
+
+#owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-prev, #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-next, #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-prev:hover, #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-next:hover {
+  width: 60px;
+  height: 60px;
+  color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/Icon_slider_arrow_next.svg") no-repeat center;
+  background-size: 50%;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-prev, #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-next, #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-prev:hover, #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-next:hover {
+    width: 50px;
+    height: 50px;
+  }
+}
+#owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  margin-top: -150px;
+  transform: rotate(180deg);
+  left: -80px;
+  z-index: 3;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-prev {
+    margin-top: 0;
+    left: -8px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-prev {
+    margin-top: 0;
+    left: -90px;
+  }
+}
+#owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  margin-top: -150px;
+  right: -80px;
+  z-index: 3;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-next {
+    margin-top: 0;
+    right: -8px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_ytViedoGroup.owl-carousel .owl-nav button.owl-next {
+    margin-top: 0;
+    right: -90px;
+  }
+}
+#owl-carousel_ytViedoGroup.owl-carousel .owl-dots {
+  visibility: hidden;
+}
+
+#owl-carousel_petEncyclopedia.owl-theme {
+  width: 880px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_petEncyclopedia.owl-theme {
+    max-width: 100%;
+    width: 100%;
+    min-height: 402px;
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_petEncyclopedia.owl-theme {
+    width: 583px;
+    min-height: 402px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_petEncyclopedia.owl-theme .owl-item {
+    min-width: 360px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+#owl-carousel_petEncyclopedia.owl-theme .item {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 270px;
+  height: 402px;
+  padding: 20px;
+  margin-right: 13px;
+  margin-left: 14px;
+  background: #fff;
+  box-shadow: 0px 4px 20px rgba(11, 48, 101, 0.08);
+  border-radius: 10px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_petEncyclopedia.owl-theme .item {
+    width: 270px;
+    height: 402px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_petEncyclopedia.owl-theme .item {
+    margin-right: 22px;
+  }
+}
+#owl-carousel_petEncyclopedia.owl-theme .item .petEncyclopedia_group {
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+  max-height: 160px;
+  width: 230px;
+  height: 160px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#owl-carousel_petEncyclopedia.owl-theme .item .petEncyclopedia_group > img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+#owl-carousel_petEncyclopedia.owl-theme .item .petEncyclopedia_txt_group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#owl-carousel_petEncyclopedia.owl-theme .item .petEncyclopedia_txt_group .txt_tit {
+  min-height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: #ff5809;
+}
+#owl-carousel_petEncyclopedia.owl-theme .item .petEncyclopedia_txt_group .txt_content {
+  min-height: 88px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  color: #231815;
+}
+#owl-carousel_petEncyclopedia.owl-theme .item .txt_tip {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#owl-carousel_petEncyclopedia.owl-theme .item .txt_tip .btn_orange_more {
+  padding: 2px 8px;
+  background: #E94D16;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  border: 0;
+}
+
+#owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-prev, #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-next, #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-prev:hover, #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-next:hover {
+  width: 60px;
+  height: 60px;
+  color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/Icon_slider_arrow_next.svg") no-repeat center;
+  background-size: 50%;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-prev, #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-next, #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-prev:hover, #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-next:hover {
+    width: 50px;
+    height: 50px;
+  }
+}
+#owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  margin-top: -150px;
+  transform: rotate(180deg);
+  left: -80px;
+  z-index: 3;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-prev {
+    margin-top: 0;
+    left: -8px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-prev {
+    margin-top: 0;
+    left: -90px;
+  }
+}
+#owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  margin-top: -150px;
+  right: -80px;
+  z-index: 3;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-next {
+    margin-top: 0;
+    right: -8px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_petEncyclopedia.owl-carousel .owl-nav button.owl-next {
+    margin-top: 0;
+    right: -90px;
+  }
+}
+#owl-carousel_petEncyclopedia.owl-carousel .owl-dots {
+  visibility: hidden;
+}
+
+#owl-carousel_petEncyclopedia.owl-theme .owl-nav {
+  position: relative;
+  margin-top: -81px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_petEncyclopedia.owl-theme .owl-nav {
+    margin-top: -190px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_petEncyclopedia.owl-theme .owl-nav {
+    margin-top: -190px;
+  }
+}
+
+#owl-carousel_healthProducts.owl-theme {
+  width: 988px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_healthProducts.owl-theme {
+    max-width: 100%;
+    width: 100%;
+    min-height: 413px;
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_healthProducts.owl-theme {
+    width: 583px;
+    min-height: 413px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_healthProducts.owl-theme .owl-item {
+    min-width: 360px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+#owl-carousel_healthProducts.owl-theme .item {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 235px;
+  height: 413px;
+  margin-right: 13px;
+  margin-left: 14px;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(11, 48, 101, 0.08);
+  border-radius: 10px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_healthProducts.owl-theme .item {
+    width: 230px;
+    height: 413px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_healthProducts.owl-theme .item {
+    margin-right: 22px;
+  }
+}
+#owl-carousel_healthProducts.owl-theme .item .petEncyclopedia_group {
+  display: flex;
+  flex-direction: column;
+  max-width: 235px;
+  max-height: 333px;
+  width: 235px;
+  height: 333px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#owl-carousel_healthProducts.owl-theme .item .petEncyclopedia_group > img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#owl-carousel_healthProducts.owl-theme .item .petEncyclopedia_txt_group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+#owl-carousel_healthProducts.owl-theme .item .petEncyclopedia_txt_group .txt_tit {
+  display: inline-block;
+  width: 214px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #141414;
+  padding-left: 20px;
+}
+#owl-carousel_healthProducts.owl-theme .item .petEncyclopedia_txt_group .txt_tit:hover {
+  color: #FFDC55;
+}
+#owl-carousel_healthProducts.owl-theme .item .petEncyclopedia_txt_group .txt_content {
+  display: inline-block;
+  width: 214px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #6A6A6A;
+  padding-left: 20px;
+}
+
+#owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-prev, #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-next, #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-prev:hover, #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-next:hover {
+  width: 60px;
+  height: 60px;
+  color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/Icon_dm_slider_arrow_next.svg") no-repeat center;
+  background-size: 100%;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-prev, #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-next, #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-prev:hover, #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-next:hover {
+    width: 50px;
+    height: 50px;
+  }
+}
+#owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  margin-top: -150px;
+  transform: rotate(180deg);
+  left: -80px;
+  z-index: 3;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-prev {
+    margin-top: 0;
+    left: -8px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-prev {
+    margin-top: 0;
+    left: -90px;
+  }
+}
+#owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  margin-top: -150px;
+  right: -80px;
+  z-index: 3;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-next {
+    margin-top: 0;
+    right: -8px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_healthProducts.owl-carousel .owl-nav button.owl-next {
+    margin-top: 0;
+    right: -90px;
+  }
+}
+#owl-carousel_healthProducts.owl-carousel .owl-dots {
+  visibility: hidden;
+}
+
+#owl-carousel_healthProducts.owl-theme .owl-nav {
+  position: relative;
+  margin-top: -81px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #owl-carousel_healthProducts.owl-theme .owl-nav {
+    margin-top: -190px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #owl-carousel_healthProducts.owl-theme .owl-nav {
+    margin-top: -190px;
+  }
+}/*# sourceMappingURL=owl-carousel_style.css.map */

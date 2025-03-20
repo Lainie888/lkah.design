@@ -1,0 +1,470 @@
+@import "_default";
+@import "_mixin";
+
+#owl-carousel_ytViedoGroup.owl-theme{
+    width: 893px;
+    padding-bottom: 15px;
+    @include mobile{
+        max-width: 100%;
+        width: 100%;
+        min-height: 256px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    @include tablet{
+        width: 583px;
+        min-height: 256px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .item {
+        width: 440px;
+        height: 248px;
+        background: #ccc;
+        padding: 0;
+        margin-right: 13px;
+        @include mobile{
+            width: 295px;
+            height: 166px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @include tablet{
+            width: 285px;
+            height: 160px;
+        }
+    }
+} 
+
+
+.vedioGroup{
+    max-width: 440px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 56.363%;
+    overflow: hidden;
+}
+
+#owl-carousel_ytViedoGroup.owl-theme {
+    .owl-nav{ //left right button
+        position: relative;
+        @include mobile{
+            margin-top: -110px;
+        }
+        @include tablet{
+            margin-top: -110px;
+        }
+    }
+}
+
+#owl-carousel_ytViedoGroup.owl-carousel{ // btn arrow
+    .owl-nav button.owl-prev, .owl-nav button.owl-next,.owl-nav button.owl-prev:hover, .owl-nav button.owl-next:hover {
+        width: 60px;
+        height: 60px;
+        color:transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("../images/Icon_slider_arrow_next.svg") no-repeat center;
+        background-size: 50%;
+        @include mobile{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .owl-nav button.owl-prev{
+        position: absolute;
+        margin-top: -150px;
+        transform: rotate(180deg);
+        // left: -60px;
+        left: -80px;
+        z-index: 3;
+        @include mobile{
+            margin-top: 0;
+            left: -8px;
+        }
+        @include tablet{
+            margin-top: 0;
+            left: -90px;
+        }
+    }
+    .owl-nav button.owl-next{
+        position: absolute;
+        margin-top: -150px;
+        // right: -60px;
+        right: -80px;
+        z-index: 3;
+        @include mobile{
+            margin-top: 0;
+            right: -8px;
+        }
+        @include tablet{
+            margin-top: 0;
+            right: -90px;
+        }
+    }
+    .owl-dots{
+        visibility: hidden;
+    }
+}
+
+#owl-carousel_petEncyclopedia.owl-theme{
+    // width: 864px;
+    width: 880px;
+    // width:calc(100% / 3 - 27px);
+    // background: orange;
+    @include mobile{
+        max-width: 100%;
+        width: 100%;
+        // width: 583px;
+        min-height: 402px;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    @include tablet{
+        width: 583px;
+        min-height: 402px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .owl-item{
+        @include mobile{
+            min-width: 360px;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .item{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 270px;
+        height: 402px;
+        padding: 20px;
+        margin-right: 13px;
+        margin-left: 14px;
+        background: #fff;
+        box-shadow: 0px 4px 20px rgba(11, 48, 101, 0.08);
+        border-radius: 10px;
+        @include mobile{
+            width: 270px;
+            height: 402px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @include tablet{
+            margin-right: 22px;
+        }
+        .petEncyclopedia_group{
+            display: flex;
+            flex-direction: column;
+            max-width: 230px;
+            max-height: 160px;
+            width: 230px;
+            height: 160px;
+            overflow: hidden;
+            object-fit: cover;
+            >img{
+                max-width: 100%;
+                width: 100%;
+                height: auto;
+            }
+        }
+        .petEncyclopedia_txt_group{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .txt_tit{
+                min-height: 60px;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                color: #ff5809;
+            }
+            .txt_content{
+                min-height: 88px;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 22px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 4;
+                overflow: hidden;
+                color: #231815;;
+            }
+        }
+        .txt_tip{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .btn_orange_more {
+                padding: 2px 8px;
+                background: #E94D16;
+                border-radius: 20px;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 600;
+                text-align: center;
+                border: 0;
+            }
+        }
+    }
+}
+
+#owl-carousel_petEncyclopedia.owl-carousel{ // btn arrow
+    .owl-nav button.owl-prev, .owl-nav button.owl-next,.owl-nav button.owl-prev:hover, .owl-nav button.owl-next:hover {
+        width: 60px;
+        height: 60px;
+        color:transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("../images/Icon_slider_arrow_next.svg") no-repeat center;
+        background-size: 50%;
+        @include mobile{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .owl-nav button.owl-prev{
+        position: absolute;
+        margin-top: -150px;
+        transform: rotate(180deg);
+        // left: -60px;
+        left: -80px;
+        z-index: 3;
+        @include mobile{
+            margin-top: 0;
+            left: -8px;
+        }
+        @include tablet{
+            margin-top: 0;
+            left: -90px;
+        }
+    }
+    .owl-nav button.owl-next{
+        position: absolute;
+        margin-top: -150px;
+        right: -80px;
+        z-index: 3;
+        @include mobile{
+            margin-top: 0;
+            right: -8px;
+        }
+        @include tablet{
+            margin-top: 0;
+            right: -90px;
+        }
+    }
+    .owl-dots{
+        visibility: hidden;
+    }
+}
+
+#owl-carousel_petEncyclopedia.owl-theme {
+    .owl-nav{ //left right button
+        position: relative;
+        margin-top: -81px;
+        @include mobile{
+            margin-top: -190px;
+        }
+        @include tablet{
+            margin-top: -190px;
+        }
+    }
+}
+
+
+#owl-carousel_healthProducts.owl-theme{ //寵物保健品
+    // width: 864px;
+    // width: 880px;
+    width: 988px;
+    // width:calc(100% / 3 - 27px);
+    // background: orange;
+    @include mobile{
+        max-width: 100%;
+        width: 100%;
+        // width: 583px;
+        min-height: 413px;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    @include tablet{
+        width: 583px;
+        min-height: 413px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .owl-item{
+        @include mobile{
+            min-width: 360px;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .item{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 235px;
+        height: 413px;
+        // padding: 20px;
+        margin-right: 13px;
+        margin-left: 14px;
+        background: #fff;
+        box-shadow: 0px 4px 10px rgba(11, 48, 101, 0.08);
+        border-radius: 10px;
+        @include mobile{
+            width: 230px;
+            height: 413px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @include tablet{
+            margin-right: 22px;
+        }
+        .petEncyclopedia_group{
+            display: flex;
+            flex-direction: column;
+            max-width: 235px;
+            max-height: 333px;
+            width: 235px;
+            height: 333px;
+            overflow: hidden;
+            object-fit: cover;
+            >img{
+                max-width: 100%;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .petEncyclopedia_txt_group{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            // align-items: center;
+            .txt_tit{
+                // min-height: 60px;
+                display: inline-block;
+                width: 214px;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                // display: -webkit-box;
+                // -webkit-box-orient: vertical;
+                // -webkit-line-clamp: 1;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color: #141414;
+                padding-left: 20px;
+                &:hover{
+                    color: #FFDC55;
+                }
+            }
+            .txt_content{
+                display: inline-block;
+                width: 214px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color: #6A6A6A;;
+                padding-left: 20px;
+            }
+        }
+        // .txt_tip{
+        //     width: 100%;
+        //     display: flex;
+        //     justify-content: flex-end;
+        //     align-items: center;
+        //     .btn_orange_more {
+        //         padding: 2px 8px;
+        //         background: #E94D16;
+        //         border-radius: 20px;
+        //         color: #fff;
+        //         font-size: 14px;
+        //         font-weight: 600;
+        //         text-align: center;
+        //         border: 0;
+        //     }
+        // }
+    }
+}
+
+#owl-carousel_healthProducts.owl-carousel{ // btn arrow
+    .owl-nav button.owl-prev, .owl-nav button.owl-next,.owl-nav button.owl-prev:hover, .owl-nav button.owl-next:hover {
+        width: 60px;
+        height: 60px;
+        color:transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("../images/Icon_dm_slider_arrow_next.svg") no-repeat center;
+        background-size: 100%;
+        @include mobile{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .owl-nav button.owl-prev{
+        position: absolute;
+        margin-top: -150px;
+        transform: rotate(180deg);
+        // left: -60px;
+        left: -80px;
+        z-index: 3;
+        @include mobile{
+            margin-top: 0;
+            left: -8px;
+        }
+        @include tablet{
+            margin-top: 0;
+            left: -90px;
+        }
+    }
+    .owl-nav button.owl-next{
+        position: absolute;
+        margin-top: -150px;
+        right: -80px;
+        z-index: 3;
+        @include mobile{
+            margin-top: 0;
+            right: -8px;
+        }
+        @include tablet{
+            margin-top: 0;
+            right: -90px;
+        }
+    }
+    .owl-dots{
+        visibility: hidden;
+    }
+}
+
+#owl-carousel_healthProducts.owl-theme {
+    .owl-nav{ //left right button
+        position: relative;
+        margin-top: -81px;
+        @include mobile{
+            margin-top: -190px;
+        }
+        @include tablet{
+            margin-top: -190px;
+        }
+    }
+}
